@@ -1,0 +1,81 @@
+<%-- 
+    Document   : index.jsp
+    Created on : 15 de mai. de 2026, 11:12:55
+    Author     : 2anhn4e0ucgu58a7
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Pet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="faviconreal.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style2.css" type="text/css"/>
+
+</head>
+<body>
+  
+    <nav class="navbar">
+
+        <div class="logo-area">
+          <img id="logopet" src="logo_tcc_1_2-removebg-preview 1.svg" alt="">
+        <h1 id="logo">Busca Pet</h1>
+        </div>
+
+        <div class="menu">
+            <a href="index.jsp">Início</a>
+            <a href="GerenciarPet?acao=perdidos" class="quebra">Pets Perdidos</a>
+            <a href="encontrados.jsp">Encontrados</a>
+            <a href="adocao.jsp">Adoção</a>
+            <a href="cadastrarPet.jsp" class="anun">Anunciar</a>
+            <a href="login.jsp" class="cad">Login</a>
+        </div>
+    </nav>
+
+    <header class="header">
+
+        <div id="pesquisa">
+            <input id="searchInput" type="text" placeholder="Digite o nome, raça ou cidade..." />
+            <button type = "button" id="btnBuscar">🔍</button>
+            <p id="resultado" ></p>
+            <p id="mensagem" ></p>
+        </div>
+
+        <div>
+            <img id="inicial" src="Sem_título-removebg-preview (1) 1.svg" alt="">
+            <h2 id="encontre"> Encontre seu <br>Pet desaparecido! </h2>
+            <p id="util"> Encontre seu pet mais rápido. Crie seu anúncio <br>gratuito agora e acesse o Painel de Busca imediatamente.</p>
+        </div>
+          
+        <div>
+            <button type="button" id="botao1"> <img id="lupa1" src="free-glass-icon-KFPX-VHE2C0X.svg" alt="">Perdi meu Pet <br> Quero buscar meu Pet</button>
+            
+            <button type="button" id="botao2"> <img id="lupa2" src="free-glass-icon-KFPX-VHE2C0X.svg" alt="" > Encontrei um Pet <br> Quero buscar o Tutor</button>
+        </div>
+
+    </header>
+
+
+    <section id="listaPets" class="pets-container">
+       
+    <p class="pet">Bruno</p>
+    <p class="pet">Tobias</p>
+    <p class="pet">Mel</p>
+    <p class="pet">Thor</p>
+        
+        
+    </section> 
+
+    <script src="js/script.js">
+
+    
+
+
+    </script>
+</body>
+</html>
+
+

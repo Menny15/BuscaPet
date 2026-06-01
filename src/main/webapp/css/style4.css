@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* FUNDO */
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff7f0;
+}
+
+/* CONTAINER */
+.container{
+    width: 420px;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* TOPO */
+.topo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.topo h2{
+    color: #ff6b2d;
+}
+
+.topo p{
+    font-size: 14px;
+    color: #555;
+}
+
+/* FORM */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* INPUT MODERNO */
+.input-group{
+    position: relative;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+}
+
+.input-group textarea{
+    height: 100px;
+    resize: none;
+}
+
+/* LABEL FLUTUANTE */
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 14px;
+    transition: 0.3s;
+    background: white;
+    padding: 0 5px;
+    pointer-events: none;
+}
+
+/* QUANDO ATIVO (INPUT, TEXTAREA E SELECT) */
+.input-group input:focus + label,
+.input-group input:valid + label,
+.input-group textarea:focus + label,
+.input-group textarea:not(:placeholder-shown) + label,
+.input-group select:focus + label,
+.input-group select:valid + label{
+
+    top: -8px;
+    transform: none;
+    font-size: 12px;
+    color: #ff6b2d;
+}
+/* BOTÃO */
+button{
+    background: #ff6b2d;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #e65a1f;
+}
+
+/* MENSAGEM */
+#mensagem{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input-group #descri {
+    top: -8px;
+    transform: none;
+    font-size: 12px;
+    color: #ff6b2d;
+}
+
+.input-group textarea::placeholder {
+    color: #999;
+}
+
+#contadorDescricao{
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    margin-top: 5px;
+}
