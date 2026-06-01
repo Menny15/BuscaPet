@@ -26,7 +26,7 @@
         </div>
 
         <div class="menu">
-            <a href="index.html">Início</a>
+            <a href="index.jsp">Início</a>
             <a href="GerenciarPet?acao=perdidos" class="quebra">Pets Perdidos</a>
             <a href="encontrados.jsp">Encontrados</a>
             <a href="adocao.jsp">Adoção</a>
