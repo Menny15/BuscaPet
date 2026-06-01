@@ -1,0 +1,16 @@
+PASSOS IMPORTANTES PARA O TCC
+
+1. Execute o arquivo:
+AJUSTES_BANCO_BUSCAPET.sql
+
+2. No NetBeans:
+- Clean and Build
+- Rode novamente o projeto
+
+3. Acesse:
+GerenciarPet?acao=perdidos
+
+4. O login agora usa:
+GerenciarUsuario
+
+5. O cadastro de usuários agora salva dataCadastro automaticamente.
